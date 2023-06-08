@@ -4,66 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>life timer</title>
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+  <html>
+    <body>
+      <div class="background">
+        <div id="initialText" class="container">
+          <h1>Kindly Enter Your Date Of Birth</h1>
+        </div>
+        <div id="afterDOBBtnTxt" class="container">
+          <div class="center">
+            <h1>How Much Life Journey Covered,Till Now</h1>
+            <div class="time-container">
+              <h2>
+                <div id="year">0</div>
+                Years
+              </h2>
+              <h2>
+                <div id="month">0</div>
+                Months
+              </h2>
+              <h2>
+                <div id="day">0</div>
+                Days
+              </h2>
+              <h2>
+                <div id="hour">0</div>
+                Hours
+              </h2>
+              <h2>
+                <div id="minute">0</div>
+                Minutes
+              </h2>
+              <h2>
+                <div id="second">0</div>
+                Second
+              </h2>
+            </div>
+          </div>
+        </div>
 
-  <link rel="stylesheet" href="../css/all.min.css" />
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/responsive.css" />
-  <body>
-    <div class="background">
-      <div class="container">
-        <h1>Kindly Enter Your Date of Birth</h1>
-      </div>
-      <div class="container">
-        <h1>How much Journey Covered ,Till Now</h1>
-        <div class="time-counter">
-          <h2>
-            <div id="year">0</div>
-            Year
-          </h2>
-          <h2>
-            <div id="month">0</div>
-            Month
-          </h2>
-          <h2>
-            <div id="day">0</div>
-            Day
-          </h2>
-          <h2>
-            <div id="hour">0</div>
-            Hour
-          </h2>
-          <h2>
-            <div id="minute">0</div>
-            Minute
-          </h2>
-          <h2>
-            <div id="second">0</div>
-            Second
-          </h2>
+        <div class="settings">
+          <i id="settingIcon" class="fa fa-cog"></i>
+          <div id="settingContent" class="settings-content hide">
+            <input type="date" id="dobInput" />
+            <button id="dobButton">Add DOB</button>
+          </div>
         </div>
       </div>
-      <div class="input-group mb-3 w-25 h-2">
-        <!-- <span class="input-group-text" id="basic-addon1"
-          ><i class="fa-solid fa-calendar fa-2x"></i
-        ></span> -->
-        <input
-          type="date"
-          class="form-control"
-          placeholder="DateOfBirth"
-          aria-label="DateOfBirth"
-          aria-describedby="basic-addon1"
-        />
-      </div>
-      <div class="btn btn-primary">Submit</div>
-    </div>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/font.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/swiper-bundle.esm.browser.min.js"></script>
-  </body>
+      <script src="../js/main.js"></script>
+    </body>
+  </html>
 </html>

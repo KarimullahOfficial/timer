@@ -6,13 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>life timer</title>
   </head>
+
   <link rel="stylesheet" href="../css/all.min.css" />
   <link rel="stylesheet" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/responsive.css" />
   <body>
-    <div class="btn btn-primary">Check</div>
+    <div class="background">
+      <div class="container">
+        <h1>Kindly Enter Your Date of Birth</h1>
+      </div>
+      <div class="container">
+        <h1>How much Journey Covered ,Till Now</h1>
+        <div class="time-counter">
+          <h2>
+            <div id="year">0</div>
+            Year
+          </h2>
+          <h2>
+            <div id="month">0</div>
+            Month
+          </h2>
+          <h2>
+            <div id="day">0</div>
+            Day
+          </h2>
+          <h2>
+            <div id="hour">0</div>
+            Hour
+          </h2>
+          <h2>
+            <div id="minute">0</div>
+            Minute
+          </h2>
+          <h2>
+            <div id="second">0</div>
+            Second
+          </h2>
+        </div>
+      </div>
+      <div class="input-group mb-3 w-25 h-2">
+        <!-- <span class="input-group-text" id="basic-addon1"
+          ><i class="fa-solid fa-calendar fa-2x"></i
+        ></span> -->
+        <input
+          type="date"
+          class="form-control"
+          placeholder="DateOfBirth"
+          aria-label="DateOfBirth"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <div class="btn btn-primary">Submit</div>
+    </div>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/font.js"></script>
     <script src="../js/main.js"></script>

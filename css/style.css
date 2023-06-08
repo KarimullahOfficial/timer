@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.background {
+  background-image: url("../image/bg.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.input-group {
+  position: absolute;
+  bottom: 100px;
+  left: 5;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.btn {
+  position: absolute;
+  bottom: 70px;
+  gap: 1rem;
+
+  left: 5;
+  display: flex;
+  align-items: center;
+}
+.time-counter {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.time-counter h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.time-counter div {
+  font-size: 4rem;
+  color: white;
+}
